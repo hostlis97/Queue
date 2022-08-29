@@ -16,7 +16,7 @@ public class Main {
         }
     }
 
-    static List<Person> generateClients() {
+    public static List<Person> generateClients() {
         List<Person> client = new LinkedList<>();
         client.add(new Person("Иванов", "Иван", 2));
         client.add(new Person("Петров", "Петр", 1));
